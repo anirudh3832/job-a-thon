@@ -1,0 +1,7 @@
+step 1 : fill na values with NOT available so as to create a new segment in age,Credit_Product         
+step 2 : transform vintage(assuming to be tenure to years)
+step 3 : converting all categorical values to probability of the segment being a lead (ex : if 100 male of 1000 are leads then 0.10 is the prbability )
+          now replace male with 0.10 or 10%
+        converting all the categorical in the same format
+step 4 : convert numerical value account bal using standard scaling
+step 5 run the model and predict
